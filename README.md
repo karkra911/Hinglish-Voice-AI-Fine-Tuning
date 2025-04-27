@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 Here’s a basic **README.md** template for your project. You can edit it further as needed:
 
 ---
@@ -91,3 +92,34 @@ This project is licensed under the Apache 2.0 License.
 This README includes all the necessary details for someone to understand the project, use it, and get started with the fine-tuning process.
 
 Feel free to customize it further!
+=======
+# Hinglish Dialogue Dataset for Voice-AI Fine-Tuning
+
+This dataset consists of 20 example Hinglish (Hindi-English code-switched) dialogues designed to fine-tune language models for understanding and generating Hinglish conversations. It is intended for use in building chatbots, voice assistants, and other conversational AI systems.
+
+## Dataset Description
+- **Size**: 20 dialogue pairs.
+- **Language**: Hinglish (code-switched between Hindi and English).
+- **Purpose**: To fine-tune LLMs for handling Hinglish dialogue.
+
+## Fine-Tuning
+- **Model**: GPT-3.5 (or another variant like `davinci`).
+- **Epochs**: 2 (can be adjusted based on model performance).
+- **Training Data**: The dataset includes conversational pairs that blend Hindi and English.
+
+## How to Fine-Tune
+1. Upload your dataset to OpenAI.
+2. Use the provided `fine_tune.py` script to initiate fine-tuning.
+3. After fine-tuning, use the `inference.py` script to test the model.
+
+## Example Prompts
+- "Mujhe ek chai pilao."
+- "Kya kar rahe ho?"
+- "Kal ka plan kya hai?"
+
+## License
+- **License**: Apache 2.0
+
+## Contributions
+Feel free to contribute by creating new examples or improving the dataset. Ensure you follow the Apache 2.0 license when making any changes.
+>>>>>>> Stashed changes
