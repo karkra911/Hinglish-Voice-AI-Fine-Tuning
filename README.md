@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-Here’s a basic **README.md** template for your project. You can edit it further as needed:
-
 ---
 
 # Hinglish Voice-AI Fine-Tuning
